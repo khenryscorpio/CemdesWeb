@@ -1,0 +1,351 @@
+.menu-item a{
+    font-family: arial;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+.banner img {
+    width: 100%;
+}
+
+
+.header{
+    margin:2%;
+}
+
+.login-link{
+   font-family: arial;
+   color: #00aed3;
+   font-size: 12px;
+   text-transform: uppercase; 
+}
+
+.noticias h3 , .miembros h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #00aed3;
+    font-size: 38px;
+    text-align: center;
+    margin: 40px;
+    text-transform: uppercase;
+}
+
+
+.noticiasImagen{
+    width: 100%;
+}
+
+
+.noticiasFecha{
+    font-family: arial ; 
+    font-size: 12px;
+    color: black;
+}
+
+.noticiasTitulo{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #00aed3;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+.noticiasFecha , .noticiasTitulo{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.noticiasImagen{
+    border: 1px solid #E2E2E2;
+}
+
+.entrevista{
+    background-image: url(../asset/img/fondo.png);
+    margin-top: 50px;
+}
+
+.entrevistaTitulo{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #00ac66;
+    font-size: 38px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.entrevistaResumen{
+    font-size: 16px;
+    font-family: arial;
+    color: #666666;
+    text-align: center;
+}
+
+hr{
+    border-bottom: 1px solid #666666;
+}
+
+.entrevistaContenido img {
+    width: 100%;
+    height: 400px;
+}  
+
+
+.row-especial {
+    min-width: 960px;
+    display: table-cell;
+    height: 100%;
+    vertical-align:middle;
+}
+
+
+.registrarse-btn{
+    background-image: url(../asset/img/registrarse.png);
+    position: relative;
+    height: 40px; width: 134px;
+    float: right;
+}
+
+.registrarse-btn:hover{
+    background-image: url(../asset/img/registrarse.png);
+    background-position: bottom;
+    position: relative;
+    height: 40px; width: 134px;
+    float: right;
+}
+
+.miembros{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.miembros h3{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.titulo-footer{
+    font-size: 24px; 
+    font-family: 'Josefin Sans', sans-serif;
+    color: #65CCCB;
+    text-transform: uppercase;
+}
+
+.footer-bg{
+    background-image: url(../asset/img/footer-bg.jpg);
+
+}
+.footer-wrap{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.content-footer{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.content-footer2{
+    font-family: arial;
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+}
+
+
+.email-txt{
+   width: 280px; height: 30px !important;
+
+}
+
+.enviar-btn{
+
+    margin: 0px; 
+    padding:0px;
+    border-width: 0px; 
+    width: 100%;
+    height: 43px !important;
+    margin: 5%;
+}
+.centered{
+    text-align: center;
+}
+
+.footer-icons{
+    margin: 1%;
+}
+
+
+.navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+}
+
+
+
+.header-slider , .content-slider{
+    background-color: #313131;
+    padding: 15px;
+    color: white;
+}
+
+.header-slider{
+
+    font-size: 14px;
+}
+
+.content-slider{
+    font-size: 12px;
+    font-family: arial ; 
+
+}
+
+.slider-element{
+    margin-top: 20px;
+}
+
+
+#cargar{
+
+    background-color: white;
+    border:1px solid gray;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+/*lomas*/
+
+
+ul#slider {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 42em;
+    height: 28em;
+}
+li.slider-element {
+    height: 24em;
+    width: 24em;
+    text-align: center;
+    cursor: pointer;
+}
+li.slider-element img {
+    width: 100%;
+}
+li.roundabout-in-focus {
+    cursor: default;
+}
+li.slider-element span {
+    display: block;
+    padding-top: 6em;
+}
+
+#carbonads-container .carbonad {
+    margin: 0 auto;
+}
+.miembros2 h3{
+    margin: 0px;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #00aed3;
+    font-size: 38px;
+    /*text-align: center;*/
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    text-transform: uppercase;
+}
+.cemdes h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #00aed3;
+    font-size: 38px;
+    text-align: left;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.tab-content {
+    margin-bottom: 80px;
+
+}
+.titulo1 h3{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #00aed3;
+    font-size: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.breadcrumb{
+    text-transform: uppercase;
+}
+.tabs-left > .nav-tabs .active > a, .tabs-left > .nav-tabs .active > a:hover, .tabs-left > .nav-tabs .active > a:focus {
+    /*border-color: transparent transparent transparent transparent;*/
+    border-color: transparent #ddd #ddd transparent;
+    font-weight: bold;
+}
+.tabs-left > .nav-tabs > li, .tabs-right > .nav-tabs > li {
+    border-color: transparent transparent #ddd transparent;
+}
+
+
+.breadcrumb {
+    padding: 8px 0px;
+    margin: 20px 0 20px;
+    list-style: none;
+    background-color: #FFFFFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.breadcrumb > .active {
+    color: #000000;
+    font-weight: bold;
+}
+.link_a{
+    color: #6e6e6e;
+    font-weight: bold;
+}
+.active{
+    /*font-weight: bold;*/
+}
+.encunciados {
+    font-weight: bold;
+}
+.linkscemdes {
+    color: #f37815;
+}
+.subtitulos  {
+    font-size: 18px;
+    color: #00aed3;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.titulopreview{
+    font-weight: bold;
+font-size: 11px;
+}
