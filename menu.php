@@ -14,7 +14,7 @@
                     <li class=" menu-item" ><a href="iniciativas.php">Iniciativas sostenibles</a></li>
                     <li class=" menu-item" ><a href="areas.php">Areas focales</a></li>
                     <li class=" menu-item" ><a href="eventos.php">Eventos</a></li>
-                    <li class=" menu-item" ><a href="#">Comunicacion</a></li>
+                    <li class=" menu-item" ><a href="comunicacion.php">Comunicacion</a></li>
                     <li class=" menu-item" ><a href="#">Contactenos</a></li>
                 </ul>
             </div> 

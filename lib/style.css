@@ -17,10 +17,10 @@
 }
 
 .login-link{
-   font-family: arial;
-   color: #00aed3;
-   font-size: 12px;
-   text-transform: uppercase; 
+ font-family: arial;
+ color: #00aed3;
+ font-size: 12px;
+ text-transform: uppercase; 
 }
 
 .noticias h3 , .miembros h3{
@@ -159,7 +159,7 @@ hr{
 
 
 .email-txt{
-   width: 280px; height: 30px !important;
+ width: 280px; height: 30px !important;
 
 }
 
@@ -346,6 +346,77 @@ li.slider-element span {
     text-transform: uppercase;
 }
 .titulopreview{
+  font-size: 18px;
+  color: #333;
+}
+.fechaTitular{
+    border-right: 1px solid green;
+    color: green;
     font-weight: bold;
-font-size: 11px;
+    font-size: 12px;
+}
+
+.row-fluid.fichaevento {
+    margin-top: 30px;
+}
+a.hide { display:none;}
+.fancybox-skin {
+    border-top: 5px solid #A9E4F0;
+}
+
+.dia{
+    font-size: 21px;
+}
+.pika-imgnav a.next{
+    background: url(pikachoose-96/styles/next.png)no-repeat scroll left 0px;
+    height: 77px;
+    width: 48px;
+    top: 77px;
+    right: 10px;
+    cursor: pointer;    
+}
+.pika-imgnav a.next:active{
+    background:url(pikachoose-96/styles/next.png)no-repeat scroll left -77px;
+}
+
+
+.pika-imgnav a.previous {
+    background: url(pikachoose-96/styles/prev.png) no-repeat left 0px;
+    height: 77px;
+    width: 48px;
+    top: 77px;
+    left: 10px;
+    cursor: pointer;
+}
+.pika-imgnav a.previous:active{
+    background:url(pikachoose-96/styles/prev.png)no-repeat scroll left -77px;
+}
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url('fancybox/x.png');
+}
+#fancybox-loading, .fancybox-close:active, .fancybox-prev span, .fancybox-next span {
+    background:url('fancybox/x.png') no-repeat scroll left -35px
+}
+.tituloGaleria{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #00aed3;
+    font-size: 38px;
+    text-align: left;
+    margin-top: 40px;
+
+    text-transform: uppercase;
+}
+.pika-textnav a.next {
+float: right;
+width: auto;
+display: none;
+}
+.pika-textnav a.previous {
+float: right;
+width: auto;
+display: none;
+}
+.publicaciones{
+    margin-top: 24px;
+
 }
